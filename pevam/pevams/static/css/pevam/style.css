@@ -23,3 +23,8 @@ body {
   .globalWrapper {
 	height: 80vh;
 }
+
+.dropdown-item{
+	color: white;
+	padding: 0.5em;
+}

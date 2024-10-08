@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'pevam.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pevam_projeto_univesp',
+        'USER': 'root',
+        'PASSWORD': 'pevamprojeto',
+        'HOST': '127.1.1.0',  # ou o IP do servidor MySQL se estiver rodando remotamente
+        'PORT': '3306',  # Porta padrão do MySQL
     }
 }
 
